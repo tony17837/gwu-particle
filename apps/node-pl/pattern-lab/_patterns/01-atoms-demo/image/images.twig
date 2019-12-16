@@ -35,7 +35,7 @@
         {% include '@atoms/image/_image.twig' with {
           image: {
             variant: 'primary',
-            src: paths.images ~'/astrogoat.png'
+            src: paths.images ~'/georgeicon.png'
           },
         } %}
       </div>
@@ -49,7 +49,7 @@
           {% set image_bg_logo_demo = {
             variant: 'bg',
             src: paths.images ~ '/logo.svg',
-            alt: 'A friendly goat wearing a space helmet. The Astrogoat!',
+            alt: 'George Head',
           } %}
 
           {% include '@atoms/image/_image.twig' with {
@@ -58,14 +58,14 @@
         </div>
         <div class="col-lg-6">
           <h3>PNG</h3>
-          {% set image_bg_astrogoat_demo = {
+          {% set image_bg_georgeicon_demo = {
             variant: 'bg',
-            src: paths.images ~ '/astrogoat.png',
-            alt: 'A friendly goat wearing a space helmet. The Astrogoat!',
+            src: paths.images ~ '/georgeicon.png',
+            alt: 'George Head',
           } %}
 
           {% include '@atoms/image/_image.twig' with {
-            image: image_bg_astrogoat_demo
+            image: image_bg_georgeicon_demo
           } %}
         </div>
       </div>

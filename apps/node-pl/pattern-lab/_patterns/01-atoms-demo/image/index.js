@@ -14,8 +14,8 @@ import './_image-demo.scss';
 // Holder JS for Demos Only.
 import 'holderjs';
 
-// Import demo only astrogoat.
-import './astrogoat.png';
+// Import demo only georgeicon.
+import './georgeicon.png';
 
 // Import demo assets
 import './images.twig';
