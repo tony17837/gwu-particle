@@ -9,16 +9,45 @@
 /// Colors
 ///
 
+$gw-gray-light:  #E8E8E8;
+$gw-gray-medium: #666666;
+$gw-gray-dark:   #414142;
+$gw-blue-light:  #0096D6;
+$gw-blue-medium: #0D78AA;
+$gw-blue-dark:   #033C5A;
+$gw-tan-light:   #E3DCCC;
+$gw-tan-medium:  #C8B18B;
+$gw-red:         #E31937;
+$gw-orange:      #A75523;
+$gw-violet:      #5A033C;
+$gw-teal-medium: #49bd97;
+$gw-teal-dark:   #008364;
+$gw-goldenrod:   #CC6600;
+$gw-pink:        #ff66ff;
+
 /// Colors
 /// Base color values are for reference. Use directly from maps in code.
 /// @group variables:colors
+///  'gray-light': $gw-gray-light,
+///  'gray-medium': $gw-gray-medium,
+/// 'gray-dark': $gw-gray-dark,
+
+
 $colors: (
-  'gray-light': #f4f4f4,
-  'gray-medium': #adb5bd,
-  'gray-dark': #343a40,
-  'pink': pink,
-  'goldenrod': goldenrod,
+  'blue-light': $gw-blue-light,
+  'blue-medium': $gw-blue-medium,
+  'blue-dark': $gw-blue-dark,
+  'tan-light': $gw-tan-light,
+  'tan-medium': $gw-tan-medium,
+  'red': $gw-red,
+  'orange': $gw-orange,
+  'violet': $gw-violet,
+  'teal-medium': $gw-teal-medium,
+  'teal-dark': $gw-teal-dark,
+  'goldenrod': $gw-goldenrod,
+  'pink': $gw-pink,
 );
+
 
 ///
 /// Typography

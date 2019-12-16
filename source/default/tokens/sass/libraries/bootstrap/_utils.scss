@@ -22,10 +22,33 @@ $gray-800: map.get(variables.$colors, 'gray-dark');
 // Bootstrap theme colors override
 // @see ~bootstrap/scss/variables:$theme-color
 $theme-colors: (
+  'blue-light': map.get(variables.$colors, 'blue-light'),
+  'blue-medium': map.get(variables.$colors, 'blue-medium'),
+  'blue-dark': map.get(variables.$colors, 'blue-dark'),
+  'tan-light': map.get(variables.$colors, 'tan-light'),
+  'tan-medium': map.get(variables.$colors, 'tan-medium'),
+  'red': map.get(variables.$colors, 'red'),
+  'orange': map.get(variables.$colors, 'orange'),
+  'violet': map.get(variables.$colors, 'violet'),
+  'teal-medium': map.get(variables.$colors, 'teal-medium'),
+  'teal-dark': map.get(variables.$colors, 'teal-dark'),
+  'goldenrod':map.get(variables.$colors, 'goldenrod'),
   'pink': map.get(variables.$colors, 'pink'),
-  'goldenrod': map.get(variables.$colors, 'goldenrod'),
+  'primary': map.get(variables.$colors, 'blue-light'),
+  'secondary': map.get(variables.$colors, 'blue-medium'),
+  'success': map.get(variables.$colors, 'teal-medium'),
+  'info': map.get(variables.$colors, 'tan-light'),
 );
 
+// 'gray-light': map.get(variables.$colors, 'gray-light'),
+// 'gray-medium': map.get(variables.$colors, 'gray-medium'),
+// 'gray-dark': map.get(variables.$colors, 'gray-dark'),
+
+$code-color: map.get(variables.$colors, 'red');
+
+
+
+$grid-gutter-width: 32px;
 // Bootstrap spacers override
 // Bootstrap Spacers use $spacer var of 1rem and assumes browser 16px default.
 // The values in $spacers map adds the value to Bootstrap's utility spacers.
