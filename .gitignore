@@ -24,7 +24,7 @@ vendor
 .idea
 *.sublime-project
 *.sublime-workspace
-
+*.code-workspace
 # Errors
 npm-debug.log
 php_errors.log
