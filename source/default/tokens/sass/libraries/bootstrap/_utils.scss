@@ -63,10 +63,10 @@ $font-family-sans-serif: map.get(variables.$font-families, 'sans');
 $font-family-monospace: map.get(variables.$font-families, 'monospace');
 $headings-font-family: map.get(variables.$font-families, 'sans');
 
-$headings-font-weight:  600;
-$font-weight-light:     200;
+$headings-font-weight:  500;
+$font-weight-light:     275;
 $font-weight-normal:    400;
-$font-weight-bold:      600;
+$font-weight-bold:      700;
 
 
 // Grid breakpoints
