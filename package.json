@@ -48,7 +48,7 @@
     "@pattern-lab/cli": "^5.4.0",
     "@pattern-lab/core": "^5.4.0",
     "@pattern-lab/engine-twig-php": "^5.4.0",
-    "@pattern-lab/uikit-workshop": "^5.4.2",
+    "@pattern-lab/uikit-workshop": "^5.17.0",
     "bootstrap": "^4.4.1",
     "core-js": "^3.4.8",
     "enquire.js": "^2.1.6",
@@ -83,7 +83,7 @@
     "fibers": "^4.0.2",
     "file-loader": "^5.0.2",
     "fs-extra": "^8.1.0",
-    "jest": "^24.9.0",
+    "jest": "^30.2.0",
     "jest-fetch-mock": "^2.1.2",
     "jest-vue-preprocessor": "^1.7.0",
     "jsondiffpatch": "^0.3.11",
@@ -112,6 +112,6 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0",
     "webpack-merge": "^4.2.2",
-    "yo": "^3.1.1"
+    "yo": "^6.0.0"
   }
 }
